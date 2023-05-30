@@ -32,7 +32,7 @@ export default function TaskList(props) {
     ));
 
     return (
-        <div>
+        <div className="TackList">
 
             {list.length ? chk : "No hay tareas"}
             {list.length ?
