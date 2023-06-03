@@ -20,7 +20,6 @@ export default function Checkbox(props) {
                 />
                 <div>{description}</div>
             </label>
-
         </Fragment>
     )
 }
