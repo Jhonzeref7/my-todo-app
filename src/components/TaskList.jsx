@@ -1,5 +1,6 @@
 import React from 'react'
 import Checkbox from './Checkbox'
+import Button from '@mui/material/Button';
 
 export default function TaskList(props) {
 
@@ -37,9 +38,8 @@ export default function TaskList(props) {
             {list.length ? chk : "No hay tareas"}
             {list.length ?
                 (<p>
-                    <button onClick={onClickRemoveItem}>
-                        Borrar todas las marcadas
-                    </button>
+                   
+                    <Button variant="contained" fullWidth onClick={onClickRemoveItem} size="large" color="secondary"> Borrar todas las marcadas</Button>
                 </p>) : null}
         </div>
     );
