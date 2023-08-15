@@ -26,9 +26,8 @@ export default function Container() {
     setList([...list, addItem]);
   };
 
-
   return (
-    <div>
+    <div className='div-card'>
       <Card sx={{ minWidth: 275 }}>
         <CardContent>
 
